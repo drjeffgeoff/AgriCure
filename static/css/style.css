@@ -1,0 +1,114 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.navbar {
+    background-color: #014f5d;
+    border-bottom: 3px solid #31b9be;
+}
+
+.navbar-brand {
+    font-family: 'Rowdies', cursive;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #028080;
+    border-radius: 5px;
+}
+
+.carousel-inner img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(24, 25, 26, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    font-family: 'Rowdies', cursive;
+    color: #97dce8;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    color: #fff;
+}
+
+section h1, section h4 {
+    color: #014f5d;
+}
+
+.details h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.details h4 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.details form input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #31b9be;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.details button {
+    background-color: #028080;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details button:hover {
+    background-color: #014f5d;
+}
+
+.gallery-h1 h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img-thumbnail {
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #014f5d;
+    padding: 20px 0;
+    color: white;
+}
+
+footer h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h3 {
+        font-size: 1.5rem;
+    }
+}

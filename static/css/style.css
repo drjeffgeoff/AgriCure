@@ -2,6 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #f7f9fc;
     color: #333;
+    background-image: url("{% static 'images/Aero.png' %}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navbar {
@@ -80,6 +84,16 @@ section h1, section h4 {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);  /* Optional for better readability */
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .details button:hover {
     background-color: #014f5d;
